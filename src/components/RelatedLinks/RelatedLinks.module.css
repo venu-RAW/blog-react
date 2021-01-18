@@ -1,0 +1,21 @@
+.currentBlog__relatedLinks {
+	padding: 2rem 0 0 2rem;
+	flex: 1;
+}
+
+.currentBlog__relatedLinks h2 {
+	margin: 0 0 3rem 0;
+	text-align: center;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.currentBlog__relatedLinks ul {
+	padding: 3rem;
+}
+
+.currentBlog__relatedLinks ul li {
+	margin-bottom: 1rem;
+	list-style: lower-roman;
+	cursor: pointer;
+}

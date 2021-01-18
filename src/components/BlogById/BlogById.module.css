@@ -1,0 +1,67 @@
+.currentBlog__container {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	overflow: hidden;
+}
+
+.currentBlog__left {
+	flex: 2;
+	padding: 2rem;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+.currentBlog__image {
+	width: 70%;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.currentBlog__author {
+	margin: 2rem 0;
+}
+
+.currentBlog__content {
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 5rem;
+	word-spacing: 2px;
+	letter-spacing: 1.5px;
+}
+
+.currentBlog__content::first-letter {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+/* .currentBlog__relatedLinks {
+	padding: 2rem 0 0 4rem;
+	flex: 1;
+}
+
+.currentBlog__relatedLinks h2 {
+	margin: 0 0 3rem 0;
+	text-align: center;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.currentBlog__relatedLinks ul li {
+	margin-bottom: 1rem;
+	list-style: lower-roman;
+	cursor: pointer;
+} */
+
+@media (max-width: 1050px) {
+	.currentBlog__container {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 765px) {
+	.currentBlog__image {
+		width: 100%;
+	}
+}

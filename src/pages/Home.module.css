@@ -1,0 +1,49 @@
+.homeContainer {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.blogContainer {
+	padding: 1rem 8rem 1rem 1rem;
+}
+
+.blogContainer h1 {
+	margin-bottom: 3rem;
+}
+
+.blogContainer p {
+	text-align: justify;
+	line-height: 1.8;
+}
+
+.homeContainer img {
+	width: 400px;
+	height: 400px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1050px) {
+	.homeContainer {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.blogContainer {
+		padding: 4rem 1rem;
+	}
+
+	.homeContainer img {
+		margin-top: 2rem;
+	}
+
+	.blogContainer p {
+		text-align: center;
+		line-height: 1.8;
+	}
+}
