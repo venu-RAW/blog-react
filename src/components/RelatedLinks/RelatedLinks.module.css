@@ -19,3 +19,8 @@
 	list-style: lower-roman;
 	cursor: pointer;
 }
+
+.navLinks {
+	color: #444544;
+	text-decoration: none;
+}
