@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## This is the simple blog application created by using React Router that displays all the blogs and also wtuh the specific blog id. This blog also contains the related links for the opened blog.
+
+## Live Demo : https://blog-react-venu.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
