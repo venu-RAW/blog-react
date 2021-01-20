@@ -9,8 +9,12 @@ const RelatedLinks = (props) => {
 			<ul>
 				{props.links.map((link) => {
 					return (
-						<Link to={`/blogs/${link.id}`} className={styles.navLinks}>
-							<li key={link.id}> {link.title}</li>
+						<Link
+							to={`/blogs/${link.id}`}
+							className={styles.navLinks}
+							key={link.id}
+						>
+							<li> {link.title}</li>
 						</Link>
 					);
 				})}
